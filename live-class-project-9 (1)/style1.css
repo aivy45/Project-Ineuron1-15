@@ -1,0 +1,77 @@
+@media (max-width:900px)
+{
+  
+    /* body{
+        background-color: orange;
+    } */
+    header{
+         grid-template-columns: 1fr 
+      }
+      .header-image{
+        display: none;
+      }
+      .header-text h2{
+        font-size: 25px;
+      } 
+      nav{
+        margin-top: 0vh;
+      }
+      .header-text p{
+        color: #ffffff;
+        margin-left: 15px;
+        font-size: large;
+        letter-spacing: 1px;
+      
+      }
+      header div:nth-child(4)
+    {
+      justify-self: flex-start;
+      margin-left: 5vh;
+    }
+
+    /* blog  */
+    .blog-heading h1{
+        text-align: center;
+    }
+    .blog-cards{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+      }
+      .blog-card{
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10vh;
+      }
+   .blog-cards .blog-card .added-2{
+    align-self: center;
+
+  }
+  .blog-card .blog-content {
+    margin-top: 5px;
+  }
+  .blog-image{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+
+
+  /* faq section  */
+  .faq-section{
+    grid-template-columns:  1fr;
+    }
+
+    /* download  */
+    .download-section{
+        grid-template-columns:1fr;
+        justify-content: center;
+        align-items: center;
+       }
+       .download-content{
+        justify-self: center;
+       }
+  
+}

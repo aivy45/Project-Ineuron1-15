@@ -1,0 +1,14 @@
+.img-fix{
+    height: 30vh;
+    width: auto;
+}
+.btn{
+    background-color: rgb(32, 176, 176);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: linear-gradient(90deg , black 0% , grey 70%);
+}

@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(images/pexels-pixabay-276514.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    
+    /* height: 100vh; */
+    /* background-clip: border-box; */
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type:none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+li:hover , .call p:hover{
+    color:rgb(229,203,48);
+    cursor: pointer;
+}
+body{
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+}
+.call p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.nav{
+    border-bottom: 3px solid #ffffff;
+
+
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav >ul> li{
+    margin-right: 60px;
+    font-size: 23px;
+}
+.nav .call{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+
+   
+}
+.call img{
+    height: 80%;
+    border-radius: 25px;
+}
+
+.logo img{
+    height:10vh;
+    width: auto;
+
+}
+
+
+/* main  */
+
+
+.upper , .lower{
+    display: flex;
+  justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.lower{
+    margin-top: 15vh;
+}
+.upper h1{
+    margin-left: 5vh;
+    color:#ffffff;
+    font-size: 45px;
+    line-height: 10vh;
+    margin-top: 15vh;
+}
+
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ background-color: rgba(128, 128, 128, 0.938);
+ opacity: 0.8;
+ margin-right: 10vh;
+ margin-top: 10vh;
+ width: 45vh;
+    height: 20vh;
+ 
+}
+.box-1 .added , .box-2 .added {
+  border: 20px;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+margin-left: 5vh;
+margin-top: 4vh;
+margin-bottom: 2vh;
+}
+
+.box-1 img , .box-2 img{
+     height: 100%;
+    /* padding: 0 3px; */
+
+}
+.box-1 h3 , .box-2 h3{
+    margin-left: 5vh;
+    color: #ffffff;
+    opacity: 1;
+    /* width: 80%; */
+    font-size: 15px;
+}
+ /* lower part  */
+
+ 
+  
+  .lower .btn h1{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 25px;
+
+  }
+  .lower .btn h1:hover{
+    background: linear-gradient(90deg  , rgba(228, 54, 54, 0.863) 0% , #423235 100%);
+    cursor: pointer;
+  }
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ background-color: rgba(128, 128, 128, 0.938);
+ opacity: 0.8;
+ height: 20vh;
+ width: 45vh;
+margin-right: 50vh;
+ 
+}
+
+/* Now time to make responsive  */
+@media (max-width:860px)
+{
+    .navbar ul>li{
+        display: none;
+    }
+    .upper {
+      justify-content: center;     
+      align-items: center;
+    }
+
+    .box-2{
+        align-self: center;
+        justify-self: center;
+        margin-right: 7vh;
+        margin-top: 10vh;
+    }
+    .lower{
+        justify-content: center;
+    }
+  
+    
+    
+}
+@media (max-width:910px)
+{
+    li{
+        display: none;
+    }
+}

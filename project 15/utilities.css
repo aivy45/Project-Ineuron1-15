@@ -1,0 +1,10 @@
+.img-fix{
+    width: 40vh;
+    height: auto;
+}
+body{
+    background-color: rgb(17,17,17);
+}
+button:hover{
+    background: linear-gradient(90deg , rgb(233, 188, 194) 10% , rgb(230, 43, 43) 60%);
+}

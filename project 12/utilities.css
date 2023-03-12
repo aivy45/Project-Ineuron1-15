@@ -1,0 +1,22 @@
+.btn-border{
+     border: 2px solid rgba(232, 232, 232, 0.918);
+     padding: 5px 14px;
+    margin-left: 7vw;
+    color: #fff;
+}
+.care-btn{
+    margin-top: 5vh;
+    color: #fff;
+    background-color: rgba(47, 82, 47, 0.8);
+     padding: 10px 20px;
+     border: none;
+}
+.care-btn:hover
+{
+    background-color: rgba(39, 127, 39, 0.8);
+
+}
+.img-fix{
+    width: 30vw;
+    height: 70vh;
+}

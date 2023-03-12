@@ -1,0 +1,128 @@
+@media(max-width:900px)
+{
+    
+
+    /* head content  */
+    .head-content{
+        grid-template-columns: 1fr ;
+       align-items: center;
+       justify-content: center;
+    }
+    .head-content-left
+    {
+        justify-self: center;
+    }
+    .head-content-right{
+        justify-self: center;   
+    }
+    
+     .head-content-right h1{
+        font-size: 40px;
+    }
+    .head-content-right p{
+        font-size: 20px;
+    }
+
+    /* cards  */
+    .card h1{
+        font-size: 20px;
+    }
+    .cards .arrow h2{
+        font-size: 17px;
+    }
+    .small-card p{
+        font-size: 16px;
+    }
+
+    /* pictures  */
+    .picture-fix .pict{
+        padding: 15px 0;
+    }
+
+/* next project  */
+.project-main .next-left h1{
+    font-size: 30px;
+  }
+}
+
+
+/* 2nd media query  */
+@media(max-width:770px)
+{
+    /* navbar   and footer */
+    .container{
+        width: 100%;
+    }
+    .header-main .navbar{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1vh;
+        align-items: flex-start;
+        }
+        .list-items{
+            margin-top: 2vh;
+        }
+        .list-item{
+            margin-left: 25px;
+            font-size: 15px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .list-item-first{
+            margin: 0;
+        }
+    
+
+    /* cards  */
+    .cards-upper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: flex-start;
+    }
+    
+    /* cards lower  */
+    .cards-lower{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        color: wheat;
+        margin-top: 15vh;
+        gap: 10px;
+    }
+
+     /* features  */
+     .feature-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+     .feature-left h1{
+        text-align: center;
+      }
+      .feature-left p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .feature-right button{
+       margin-top: 2vh;
+        }
+
+    /* pictures  */
+    .pictures-content{
+        display: grid;
+        grid-template-columns: 1fr ;  
+    }
+
+    .picture-fix .pict{
+        padding: 0px 0;
+    }
+
+    /* next project  */
+    .project-main{
+        padding: 10px 20px;
+    }
+    .project-main .next-left h1{
+        font-size: 30px;
+      }
+   
+}
